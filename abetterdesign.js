@@ -223,3 +223,11 @@ c17.call(17);
 let c18 = new CallUp();
 c18.call(18);
 
+let c19 = new CallUp();
+c18.call(19);
+
+let c20 = new CallUp();
+c18.call(20);
+
+let c21 = new CallUp();
+c18.call(21);
