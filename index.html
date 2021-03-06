@@ -1,78 +1,13 @@
-<!DOCTYPE html>
-	<html>
+<DOCTYPE html unselectable="on">
+	<html unselectable="on">
 		<head>
-			<link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
-			<meta charset="UTF-8">
-
-			<script src="plugin.js"></script>
-
-			<link rel="stylesheet" type="text/css" 
-			href="abetterdesign.css">
-			<link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
-			<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+			<link rel="stylesheet" type="text/css" href="click.css">
 		</head>
-<body>
-	<img src="music.jpg"/>
-	<div class="container">
-
-  		<div class="d1"></div>
-  		<div class="d5">
-  			<span contenteditable="true" id="mainbox" class="text-box"></span></div>
-  			<div class="d4">
-  				<button id="btn_grade" class="btn">Grade</button>
-  				<button id="btn_copy" class="btn">Copy</button>
-  				<button id="btn_reset" class="btn">Reset</button>
-  			</div>
-  		<div class="d6">
-        <h2>Prompt Exploration</h2>
-  			<span class="grade" id="promptExploration" style="width:60px; font-size: 30px;" contenteditable="true" class="text-box"></span>
-  			<h2>Terminology</h2>
-  			<span class="grade" id="terminology" style="width:60px; font-size: 30px" contenteditable="true" class="text-box">    </span>
-        <h2>Peer Engagement</h2>
-        <span class="grade" id="engagement" style="width:60px; font-size: 30px" contenteditable="true" class="text-box">    </span>
-  			<h2>Grade on 30</h2>
-  			<span class="grade" id="total" style="width:60px; font-size: 30px" contenteditable="true" class="text-box">
-  			</span>
-        <h2>Letter Grade</h2>
-        <span class="grade" id="letterGrade" style="width:60px; font-size: 30px" contenteditable="true" class="text-box">
-            </span>
+		<body unselectable="on">	
+		<div id="container" unselectable="on">
+			<img unselectable="on" onContextMenu="return false;" draggable="false" src="1.png" id="panel" width="55%" >
+			<script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+			<script src="click.js"></script>
 		</div>
-  		<div class="d7"><h2>Positive</h2>
-
-  			<span class="comments" contenteditable="true" class="text-box"></span>
-  			<span class="comments" contenteditable="true" class="text-box"></span>
-  			<span class="comments" contenteditable="true" class="text-box"></span>
-  			<span class="comments" contenteditable="true" class="text-box"></span>
-  			<span class="comments" contenteditable="true" class="text-box"></span>
-  			<span class="comments" contenteditable="true" class="text-box"></span>
-        <span class="comments" contenteditable="true" class="text-box"></span>
-        <span class="comments" contenteditable="true" class="text-box"></span>
-
-  		</div>
-  		<div class="d8"><h2>Prompt Exploration</h2>
-  		  	<span class="comments" contenteditable="true" class="text-box"></span>
-  			<span class="comments" contenteditable="true" class="text-box"></span>
-  			<span class="comments" contenteditable="true" class="text-box"></span>
-  			<span class="comments" contenteditable="true" class="text-box"></span>
-  			<span class="comments" contenteditable="true" class="text-box"></span>
-  			<span class="comments" contenteditable="true" class="text-box"></span>
-        <span class="comments" contenteditable="true" class="text-box"></span>
-        <span class="comments" contenteditable="true" class="text-box"></span>
-      </div>
-  		<div class="d9"><h2>Terminology</h2>
-  		  	<span class="comments" contenteditable="true" class="text-box"></span>
-  			<span class="comments" contenteditable="true" class="text-box"></span>
-  			<span class="comments" contenteditable="true" class="text-box"></span>
-  			<span class="comments" contenteditable="true" class="text-box"></span>
-  			<span class="comments" contenteditable="true" class="text-box"></span>
-  			<span class="comments" contenteditable="true" class="text-box"></span>
-        <span class="comments" contenteditable="true" class="text-box"></span>
-        <span class="comments" contenteditable="true" class="text-box"></span>
-  		</div>
-</div>
-
-
-<script src="abetterdesign.js"></script>
-</body>
+		</body>
 </html>
