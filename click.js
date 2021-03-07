@@ -21,6 +21,7 @@ page[0].onclick = function() {
 		drawScene();
 		if (currentScene > panels) {
 			currentScene = 1;
+			drawScene();
 		}
 	}
 
