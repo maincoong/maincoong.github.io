@@ -3,7 +3,7 @@ let page = document.getElementsByTagName("BODY")
 
 // change panel # when you add images to folder
 let panels = 22;
-let currentScene = 1;
+let currentScene = 0;
 
 //changes src of image to reflect currentScene #
 //cycles through images which are named 1.png, 2.png, 3.png, etc
@@ -15,12 +15,12 @@ function drawScene() {
 
 
 page[0].onclick = function() {
-	if (currentScene === 1) {
-		currentScene = 2;
+	if (currentScene === 0) {
+		currentScene = 1;
 	}
 		drawScene();
 		if (currentScene > panels) {
-			currentScene = 1;
+			currentScene = 0;
 			drawScene();
 		}
 	}
