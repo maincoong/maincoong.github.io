@@ -15,12 +15,12 @@ function drawScene() {
 
 
 page[0].onclick = function() {
-	if (currentScene === 0) {
-		currentScene = 1;
+	if (currentScene === 1) {
+		currentScene = 2;
 	}
 		drawScene();
 		if (currentScene > panels) {
-			currentScene = 0;
+			currentScene = 1;
 			drawScene();
 		}
 	}
