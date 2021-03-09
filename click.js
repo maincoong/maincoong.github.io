@@ -2,7 +2,7 @@ let imageSource = document.getElementById("panel");
 let page = document.getElementsByTagName("BODY")
 
 // change panel # when you add images to folder
-let panels = 22;
+let panels = 10;
 let currentScene = 0;
 
 //changes src of image to reflect currentScene #
